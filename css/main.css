@@ -1,0 +1,41 @@
+* {
+  box-sizing: border-box; }
+
+.wrapper {
+  display: flex; }
+
+.unstyled {
+  list-style: none;
+  padding: 0; }
+
+a {
+  text-decoration: none;
+  color: black; }
+
+#sidebar {
+  position: fixed;
+  width: 250px;
+  min-width: 250px;
+  max-width: 25px;
+  height: 100vh !important;
+  background: gainsboro;
+  color: white;
+  transition: all 30ms; }
+
+#sidebar, .sidebar-header {
+  background: gainsboro; }
+
+#sidebar, .sidebar-header img {
+  width: 100%;
+  height: auto; }
+
+#sidebar ul li.active > a {
+  color: orange;
+  background: lightgrey; }
+
+#sidebar ul li a {
+  padding: 10px;
+  font-size: 1em;
+  display: block; }
+
+/*# sourceMappingURL=main.css.map */

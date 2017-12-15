@@ -1,0 +1,92 @@
+body {
+  background-image: url(../img/pizza-bg.jpg);
+  background-size: cover;
+}
+
+#header {
+  text-align: center;
+}
+
+.home {
+  width: 15%;
+  margin: auto;
+}
+
+#inputOutput {
+  margin-top: 20px;
+}
+
+#finalOrder {
+  display: none;
+}
+
+#addPizza {
+  margin-top: 20px;
+}
+
+h4 {
+  display: none;
+}
+
+#receipt {
+  display: none;
+}
+
+#mainInfo {
+  display: none;
+}
+
+#addressInfo {
+  display: none;
+}
+
+#addPizza {
+  display: none;
+}
+
+#delivery {
+  width: 180px;
+  height: 80px;
+  font-size: 25px;
+  border: 3px ridge black;
+  background-color: white;
+  margin-top: 20px;
+}
+
+#pickUp{
+  width: 180px;
+  height: 80px;
+  font-size: 25px;
+  border: 3px ridge black;
+  background-color: white;
+  margin-top: 20px;
+}
+
+.card {
+  border: 2px ridge black;
+  background-color: white;
+}
+
+#intro {
+  text-align: center;
+}
+
+#orderSummary {
+  display: none;
+}
+
+#userInput {
+  display: none;
+}
+
+#receiptCard {
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+#finalPizza {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1100px;
+}

@@ -1,0 +1,56 @@
+.top-right-nav{
+  padding-right: 22px;
+  padding-top: 10px;
+  font-size: 10px;
+  float: right;
+}
+
+.sidebar{
+  float: left;
+  width: 13%;
+  margin-top: 30px;
+  margin-right: 2%;
+  border-right: 1px solid lightblue;
+}
+.green {
+  background-color: #cef2e0;
+}
+
+.green-title {
+  background-color: #a3bfb1;
+}
+.list1 {
+  list-style: none;
+  font-size: 12px;
+}
+
+.grey {
+  font color: #c9cacc;
+  text-decoration: underline;
+
+}
+
+.float-left{
+  float: left;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+.float-right{
+  float: right;
+  margin-left: 15px;
+}
+ .blue{
+   background-color: #f5faff;
+ }
+
+ .blue-title{
+   background-color: #cedff2;
+ }
+
+.purple-title{
+  background-color: #ddcef2
+}
+.purple{
+  background-color: #faf5ff;
+}

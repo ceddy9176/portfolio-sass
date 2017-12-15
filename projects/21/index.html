@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://fonts.googleapis.com/css?family=Ruslan+Display" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/master.css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <title>BlackJack</title>
+  </head>
+  <body>
+    <div class="container">
+      <img class="title-img" src="img/title.png" alt="">
+      <div class="dealer">
+          <h2>Dealer</h2>
+          <div id="dealer-score">0</div>
+          <div id="dealer" class="game-table"></div>
+      </div>
+      <form id="number-form">
+        <input type="number" min="1" max="7" id="how-many" placeholder="How many players?">
+        <div class="form-group" id="names"></div>
+        <button type="submit" class="btn btn-warning">Start Game</button>
+
+      </form>
+      <div class="deal-btn">
+        <button type="button" class="btn btn-warning" id="deal">Deal</button>
+      </div>
+      <div class="players">
+      </div>
+    </div>
+  </body>
+</html>

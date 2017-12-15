@@ -1,0 +1,116 @@
+@media screen and (max-width: 1080px) {
+  .grid {
+    grid-template-columns: 1fr 1fr !important; }
+
+  .large:after {
+    width: 88% !important; } }
+@media screen and (max-width: 700px) {
+  body {
+    font-size: .9em; }
+
+  .grid {
+    grid-template-columns: 1fr !important;
+    grid-gap: 10px !important; }
+
+  .story {
+    height: auto;
+    text-align: left !important; }
+
+  .story.center {
+    height: 100px; }
+
+  .story.center .image {
+    width: 30%;
+    height: 80% !important;
+    padding: 9px 0 9px 5px; }
+
+  .story.large {
+    grid-column: 1;
+    height: 300px; }
+
+  .large:after {
+    height: 37.5% !important;
+    width: 86.5% !important; }
+
+  .center .content {
+    padding: 0px 0 0 40% !important;
+    margin-top: -106px; } }
+h1 {
+  font-weight: 400;
+  color: #454545; }
+
+h2 {
+  font-size: 1.2em;
+  font-weight: 300; }
+  h2:first-letter {
+    text-transform: capitalize; }
+
+sub {
+  font-weight: 400;
+  color: #7d7d7d; }
+
+.large h2 {
+  margin-bottom: 50px; }
+
+.large .story-sub {
+  margin-bottom: 50px; }
+  .large .story-sub sub {
+    color: white; }
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px; }
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  background: white; }
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; }
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 30px;
+  z-index: 1; }
+
+.large {
+  grid-column: span 2;
+  color: white; }
+  .large:after {
+    content: "";
+    background: #00000026;
+    position: absolute;
+    width: 43.6%;
+    height: 50%; }
+
+.large .content {
+  height: 100%;
+  justify-content: flex-end; }
+
+.large a.image {
+  height: 100%; }
+
+body {
+  box-sizing: border-box;
+  background-color: whitesmoke;
+  color: #757575;
+  font-family: robato, sans-serif; }
+
+.wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto; }
+
+.center {
+  text-align: center; }
+
+/*# sourceMappingURL=master.css.map */

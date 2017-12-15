@@ -1,0 +1,87 @@
+#header.container {
+  display: block;
+  height: 100px;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-family: arial;
+  text-align: center;
+}
+
+#logo {
+  margin-left: auto;
+  align-self: auto;
+  background-color: #F0F0F0;
+}
+
+body {
+  background-color: #F0F0F0;
+  font-family: 'raleway',sans-serif;
+}
+
+img {
+  width: 200px;
+  height: auto;
+  padding-left: 10px;
+  padding-top: 10px;
+}
+
+#intro {
+  text-align: center;
+}
+
+hr {
+  width: 90%;
+}
+
+name, .email-entry, #salary {
+  margin-bottom: 40px;
+}
+
+h3 {
+  border-bottom: 2px solid #666;
+}
+
+#submit {
+  font-family: 'Raleway', sans-serif;
+  color: white;
+  width: 100%;
+}
+
+.modal-header {
+  background-color: #53585D;
+  color: white;
+}
+
+.img-responsive {
+  width: 35%;
+  display: inline-block;
+  margin-right:140px;
+  float: right;
+}
+
+.user-name {
+  text-transform: capitalize;
+}
+
+#form.container.fluid {
+  margin-left:138px;
+}
+
+p {
+  text-indent: 50px;
+}
+
+h4 {
+  font-size: 15px;
+  text-align: center;
+}
+
+.form-control {
+  width: 30%;
+}
+
+footer {
+  text-align: center;
+  background-color: #53585D;
+  color: white;
+}

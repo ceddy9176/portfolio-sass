@@ -1,0 +1,31 @@
+h1 {
+  color: #FF2D00;
+  text-align: center;
+}
+
+h2 {
+  font-style: italic;
+  text-align: center;
+}
+
+p {
+  font-family: fantasy;
+}
+
+ul {
+  font-size: 20px;
+  line-height: 30px;
+}
+
+ol {
+  font-size: 20px;
+  line-height: 30px;
+}
+body {
+  background-image: url("https://i.warosu.org/data/g/img/0565/38/1473649330782.png");
+  background-color: #cccccc;
+  text-align: center;
+  color: white;
+  
+
+}

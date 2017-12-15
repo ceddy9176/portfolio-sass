@@ -1,0 +1,16 @@
+body {
+  box-sizing: border-box;
+  background-color: $lightgray;
+  color: $mediumgray;
+  font-family: robato, sans-serif;
+}
+
+.wrapper {
+  width: 90%;
+  max-width: 1440px;
+  margin: auto;
+}
+
+.center {
+  text-align: center;
+}

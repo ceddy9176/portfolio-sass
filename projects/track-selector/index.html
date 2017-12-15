@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+    <title>Epicodus track quiz</title>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.2.1.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  </head>
+  <body>
+    <div id="logo">
+      <img src="img/epicodus.png" alt="logo for epicodus">
+      <br>
+    </div>
+      <div class="container"
+        <div id="header">
+          <h1>Track quiz</h1>
+          <h4>| Which coding spectrum should you be doing? |</h4>
+        </div>
+      </div>
+    <div class="container fluid" id="form">
+      <div class="row">
+        <div class="col-md-12" id="intro">
+          <p>Epicodus offers many differnet courses, ofter the students that enroll are often unsure of what they want to take after finishing the Into to programming class. Now if your a student or anyone else who doesn't quite know what language you want to learn, this short survey could help you decide.</p>
+          <hr>
+        </div>
+      </div>
+      <!-- name goes here -->
+      <form id="trackQuiz" class="form-group" action="index.html" method="post">
+        <div class="name">
+          <label for="name"> Whats your name</label>
+          <input type="text" class="form-control" id="name" placeholder="Put name here...">
+        </div>
+        <!-- email goes here -->
+        <div class="email-input form group">
+          <label for="email"> Whats your email</label>
+          <input type="email" class="form-control" id="email" aria-describedby="emailHelp"  placeholder="enter email...">
+          <small id="emailHelp" class="form-text text-muted"> Don't worry! We'll never share your email with anyone else, we just want to send you your results.</small>
+        </div>
+        <br>
+        <!-- question 1 -->
+        <div class="question">
+          <div class="row">
+            <div class="col-md-12 question" id="question1">
+              <h3>Question 1: </h3>
+              <p> Does making things look good and work well, obsessing over layouts, navigation, colors, and design sound like fun to you?</p>
+            </div>
+          </div>
+          <!-- question 1 options -->
+          <div>
+            <label><input type="radio" name="question1" value="1"> Oh, yes I love me some color</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question1" value="5"> Oh god no, anthing but color</label>
+          </div>
+        </div>
+        <!-- question 2 -->
+        <div class="question">
+          <div class="row">
+            <div class="col-md-12 question" id="question2">
+              <h3>Question 2: </h3>
+              <p>Do you like to make interactive applications?</p>
+            </div>
+          </div>
+          <!-- question 2 options -->
+          <div>
+            <label><input type="radio" name="question2" value="1"> only if they look amazing</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question2" value="5"> I would rather manage content</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question2" value="10"> only its its clean and simple</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question2" value="0"> I just like games</label>
+          </div>
+        </div>
+      <!-- question 3 -->
+        <div class="question">
+          <div class="row">
+            <div class="col-md-12 question" id="question3">
+              <h3>Question 3: </h3>
+              <p>What kind of work environment sounds like it would work best for you?</p>
+            </div>
+          </div>
+          <!-- question 3 options -->
+          <div>
+            <label><input type="radio" name="question3" value="1"> Work from home</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question3" value="5"> Maintaining a company website or even government work sounds fun to me!</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question3" value="10"> I think I'd like to work for a startup company.</label>
+          </div>
+        </div>
+        <!-- question 4 -->
+        <div class="question">
+          <div class="row">
+            <div class="col-md-12 question" id="question3">
+              <h3>Question 4: </h3>
+              <p>What animal do you like more?</p>
+            </div>
+          </div>
+          <!-- question 4 options -->
+          <div>
+            <label><input type="radio" name="question4" value="2"> Cats!</label>
+          </div>
+          <div>
+            <label><input type="radio" name="question4" value="2"> Dogs!</label>
+          </div>
+        </div>
+        <!-- question 5 -->
+        <div class="question">
+          <div class="row">
+            <div class="col-md-12 question" id="question-5">
+              <h3>Question 5:</h3>
+              <p>How much money would you like to make?</p>
+            </div>
+          </div>
+        <!-- question 5 input -->
+        <div class="row">
+            <div class="container-fluid col-md-4 col-md-ooffset-4">
+              <label class="sr-only" for="ideal-salary"> Amount (in dollars)</label>
+              <div  id="salary" class="input-group">
+                <div class="input-group-addon">$</div>
+                <input type="text" class="form-control" id="exampleInputAmount" placeholder="Amount">
+                <div class="input-group-addon">,000</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- submit -->
+        <div class="row">
+          <div class="container-fluid">
+            <div class="btn-group" id="centerbutton">
+              <button id="submit" class="btn btn-dark" data-toggle="modal" data-target="#my-modal">Click here to find your track!</button>
+      <!-- button closes -->
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <!-- results -->
+    <div class="modal" tabindex="-1" role="dialog" id="my-modal">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+            <h4 class="modal-title">The results are in:</h4>
+          </div>
+          <div class="modal-body">
+            <h5>We found the perfect track for you, <span class="user-name"></span>!</h5>
+            <p>You should study <span class="which-track"></span>. This track is useful because <span class="track-description"></span></p>
+            <div class="container-fluid track-photo pull-left"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+  <footer> copyright (c) Connor Miller</footer>
+</html>

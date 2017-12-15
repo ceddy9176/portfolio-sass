@@ -1,0 +1,55 @@
+body {
+  background-color: #C7D2D5
+  ;
+}
+h1 {
+  font-family: monospace;
+  color: #044759;
+  font-size: 90px;
+  text-align: center;
+}
+a {
+  color: #663366;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.paragraph-text {
+  font-family: monospace;
+  color: white;
+  text-shadow: 2px 1px 2px red;
+  font-size: 15px;
+  line-height: 15px;
+}
+
+.title {
+  font-family: cursive;
+  font-weight: bolder;
+  font-size: 60px;
+
+}
+.important {
+  color: red;
+}

@@ -1,0 +1,40 @@
+body {
+  background-color: #FFE0FB;
+  text-align: center;
+}
+.float {
+  text-align: left;
+}
+.Fancy-title {
+  font-family: fantasy;
+  line-height: 20px;
+
+}
+.recipes-pics {
+  width: 400px;
+  height:  auto;
+}
+/* nav bar */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}

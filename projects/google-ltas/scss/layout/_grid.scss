@@ -1,0 +1,41 @@
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 25px;
+}
+
+.story {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  background: $white;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-grow: 1;
+  padding: 30px;
+  z-index: 1;
+}
+
+.large {
+  grid-column: span 2;
+  color: $white;
+  @include darktint;
+}
+
+.large .content {
+  height: 100%;
+  justify-content: flex-end;
+}
+.large a.image{
+  height: 100%;
+}

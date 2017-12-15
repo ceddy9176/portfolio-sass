@@ -1,0 +1,49 @@
+body {
+  background-color: black;
+  color: white;
+}
+h1 {
+  text-align: center;
+}
+.sad-pup {
+  width: 500px;
+  height: auto;
+}
+.background-pic {
+  width: inherit;
+
+}
+.center {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.home-tab {
+  position: relative;
+  text-align: center;
+}
+.adopt-tab {
+  display: none;
+}
+.about-tab {
+  display: none;
+}
+.faq-tab {
+  display: none;
+}
+
+.video {
+  width: 50%;
+  margin: 0 auto;
+  display: none;
+}
+
+.padding-bottom {
+  padding-bottom: 20px;
+}
+.borders {
+  border-color: white;
+  border-style: double;
+  border-width: 3px;
+}

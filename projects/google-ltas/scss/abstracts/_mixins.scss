@@ -1,0 +1,15 @@
+@mixin capitalize {
+  &:first-letter {
+    text-transform: capitalize;
+  }
+}
+
+@mixin darktint {
+  &:after {
+  content: "";
+  background: #00000026;
+  position: absolute;
+  width: 43.6%;
+  height: 50%;
+  }
+}

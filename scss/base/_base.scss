@@ -14,5 +14,16 @@
   position: absolute;
   right: 0;
   padding: 30px;
-  background: gainsboro;
+  background: $base-color;
+}
+
+@media screen and (max-width:1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr !important;
+  }
+}
+@media screen and (max-width:700px) {
+  .grid {
+    grid-template-columns: 1fr !important;
+  }
 }

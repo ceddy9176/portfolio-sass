@@ -15,6 +15,14 @@
   padding: 30px;
   background: gainsboro; }
 
+.contact {
+  background: white;
+  padding: 20px;
+  padding-top: 30px; }
+
+.about {
+  padding-top: 30px; }
+
 @media screen and (max-width: 1000px) {
   .grid {
     grid-template-columns: 1fr 1fr !important; }
@@ -43,6 +51,19 @@
 a {
   text-decoration: none;
   color: black; }
+
+a:hover {
+  text-decoration: none;
+  color: orange; }
+
+.navbar-dark .navbar-nav .nav-link {
+  color: black; }
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: orange; }
+
+.navbar-dark .navbar-nav .nav-link.active {
+  color: orange; }
 
 .grid {
   display: grid;

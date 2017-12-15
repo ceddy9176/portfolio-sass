@@ -5,3 +5,13 @@
 .wrapper {
   display: flex;
 }
+
+.mainContent {
+  width: calc(100% - 250px);
+  min-height: 10vh;
+  transition: all 30ms;
+  position: absolute;
+  right: 0;
+  padding: 30px;
+  background: gainsboro;
+}

@@ -4,10 +4,19 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js",
+    integrity="sha256hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=",crossorigin="anonymous"></script>
+    <script src="js/scripts.js" type="text/javascript"></script>
     <link href="css/main.css" rel="stylesheet">
     <title>porfolio</title>
   </head>
-  <body class="wrapper">
+  <body class="wrapper preload">
+    <div class="overlay">
+    		<p id="name"> The page is loading...</p>
+    		<div class="center">
+    			<div class="loader"></div>
+    		</div>
+    	</div>
     <nav id="sidebar">
       <div class="sidebar-header">
         <img src="img/cm.png" alt="logo">
@@ -22,10 +31,7 @@
       <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-shrink" id="mainNav">
         <div class="container">
           <a class="navbar-brand" href="#"> <img src="" alt="logo"> </a>
-          <button class="navbar-toggler collapsed" data-toggle="collapse" aria-expanded="false" data-target="#navbarResponsive">
-          Menu
-          </button>
-          <div class="collapse navbar-collapse" id="navbarResponsive">
+          <div id="navbarResponsive">
             <ul class="navbar-nav text-uppercase ml-auto">
               <li class="nav-item">
                 <a class="nav-link active" href="index.html">Home</a>

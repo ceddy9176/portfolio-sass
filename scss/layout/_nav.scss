@@ -37,3 +37,16 @@
   padding: .5rem 1rem;
   background: gainsboro;
 }
+
+ul.navbar-nav.text-uppercase.ml-auto {
+    flex-direction: row;
+}
+
+.container {
+    flex-wrap: nowrap !important;
+    max-width: 885px;
+}
+
+li.nav-item {
+    margin-right: 15px;
+}
